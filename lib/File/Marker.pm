@@ -1,6 +1,6 @@
 package File::Marker;
 
-$VERSION = "0.12";
+$VERSION = '0.13';
 @ISA = qw( IO::File );
 
 use strict;
@@ -187,6 +187,10 @@ __END__
 =head1 NAME
 
 File::Marker - Set and jump between named position markers on a filehandle
+
+=head1 VERSION
+
+This documentation refers to version 0.13.
 
 =head1 SYNOPSIS
 
